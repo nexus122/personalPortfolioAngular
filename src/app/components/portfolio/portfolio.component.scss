@@ -28,3 +28,15 @@
         }
     }
 }
+
+.topics{
+    display: flex;
+    flex-wrap: wrap;    
+    div{
+        margin-bottom: 1em;
+        p{
+            margin-bottom: 0em;
+            color: var(--primary);
+        }        
+    }
+}

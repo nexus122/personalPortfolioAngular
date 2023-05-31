@@ -25,6 +25,11 @@
       <header>
         <h3>{{ repo.name.replaceAll("-", " ").replaceAll("_", " ") }}</h3>
       </header>
+      <span class="grid topics">
+      <div *ngFor="let topic of repo.topics">
+        <p>{{topic}}</p>
+      </div>
+      </span>
       <p>{{ repo.description }}</p>
 
       <div class="grid">
