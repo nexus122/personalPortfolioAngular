@@ -1,0 +1,26 @@
+<div
+  class="rounded-lg bg-neutral-100 p-6 text-neutral-700 shadow-lg dark:bg-neutral-600 dark:text-neutral-200 dark:shadow-black/30"
+>
+  <h2 class="mb-5 text-3xl font-semibold">
+    🤟 Hola, Soy {{ user.login }} Bienvenido a mis proyectos
+  </h2>
+
+  <hr
+    class="my-6 h-0.5 border-t-0 bg-neutral-200 opacity-100 dark:opacity-30"
+  />
+
+  <div class="flex flex-wrap gap-2">
+    <div class="image">
+      <img [src]="user.avatar_url" alt="" />
+    </div>
+    <div class="mb-4">
+      <h2>{{ user.name }}</h2>
+      <p>{{ user.bio }}</p>
+      <span class="grid">
+        <p><i class="fa-solid fa-hammer"></i> Repos: {{ user.public_repos }}</p>
+        <p><i class="fa-solid fa-eye"></i> Followers: {{ user.followers }}</p>
+      </span>
+      <button (click)="this.openLinkService.openLink(user.blog)">Ir a la web</button>
+    </div>
+  </div>
+</div>
