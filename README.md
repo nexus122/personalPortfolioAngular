@@ -1,27 +1,15 @@
-# ScaffoldingAngular
+# Personal Portfolio Angular
+Esta web te permite colocar tu nombre de usuario de Github y carga toda tu información y tus proyectos ( siempre y cuando tengan una demo asociada) de esta manera te arma un portfolio de manera automática ya que siempre estará actualizado.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.5.
+![[Pasted image 20230930175949.png]]
 
-## Development server
+Ahora mismo esta muuy feo, hace falta darle una vuelta, pero ya tiene todos los ingredientes principales.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+**Cosas a mejorar:**
+- Centrar el layout
+- Buscar nuevos colores para las cards en General
+- Arreglar el Header ( Quizas ni es necesario )
+- Buscar un fondo o color de fondo que no moleste.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+**Cosas que estarían bien:**
+Cargar los proyectos con el scroll.
